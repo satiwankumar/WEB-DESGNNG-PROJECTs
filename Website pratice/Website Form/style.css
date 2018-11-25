@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('satiwan.jpg');
+	width: 1513px;
+	height: 1000px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: all;
+
+}

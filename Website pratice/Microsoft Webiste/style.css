@@ -1,0 +1,35 @@
+#container{
+
+	width: 1513px;
+	height: 1000px;
+	background-color: white;
+
+
+}
+#header{
+
+	width: 1513px;
+	background-color: #242323;
+	color: #EFEFEF;
+	height: 200px;
+
+	font-family: 
+}
+h3, article h4{
+	color: #8C1018;
+
+
+}
+article a {
+	color: #314052;
+}
+header h1 {
+font-size: 4em;
+}
+article {
+
+margin: 5px 0px;
+padding: 5px 5px;    
+box-shadow: -1px -1px 6px #888888;
+}
+}

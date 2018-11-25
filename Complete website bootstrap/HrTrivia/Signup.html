@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body id="container">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="height:80px;background-color:#141e30;color:#ffffff;width:100%;margin:0;">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><i class="fa fa-globe"></i>&nbsp;Zombies</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="Signup.html" style="color:#ffffff;"><i class="fa fa-wpexplorer"></i>&nbsp;Add</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="Update.html" style="color:#ffffff;"><i class="fa fa-wpexplorer"></i>&nbsp;Update</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="Delete.html" style="color:#ffffff;"><i class="fa fa-star-o"></i>&nbsp;Delete</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="SearchEmployee.html" style="color:#ffffff;"><i class="fa fa-user-circle-o"></i>&nbsp;Search</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="MainMenu.html" style="color:#ffffff;"><i class="fa fa-sign-in"></i>&nbsp;Log out</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="row register-form">
+        <div class="col-md-8 offset-md-2">
+            <form class="custom-form" style="background-color:#141e30;">
+                <h1>Register Form</h1>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" id="form" style="font-size:20px;">ID</label></div>
+                    <div class="col-sm-6 input-column"><input class="form-control" type="text" style="background-color:#ffffff;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="name-input-field" style="font-size:20px;">Name </label></div>
+                    <div class="col-sm-6 input-column"><input class="form-control" type="text"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="email-input-field" style="font-size:20px;">Gender</label></div>
+                    <div class="col-sm-6 input-column"><input class="form-control" type="email"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="repeat-pawssword-input-field" style="font-size:20px;">Contact</label></div>
+                    <div class="col-sm-6 input-column"><input class="form-control" type="password"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Dob</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Address</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Area of Res</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">City</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Postal code</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Country</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Designation</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Funt title</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Emp Type</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Contact</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Extension</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-row form-group">
+                    <div class="col-sm-4 label-column"><label class="col-form-label" for="dropdown-input-field" style="font-size:20px;">Department ID</label></div>
+                    <div class="col-sm-4 input-column"><input class="form-control" type="password" style="width:215px;"></div>
+                </div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1" style="font-size:20px;"><label class="form-check-label" for="formCheck-1" style="font-size:20px;">I've read and accept the terms and conditions</label></div><button class="btn btn-light submit-button"
+                    type="button" style="font-size:20px;background-color:#243b55;">Submit Form</button></form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

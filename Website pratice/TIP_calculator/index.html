@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>satiwan kumar</title>
+
+	<link rel="stylesheet" type="text/css" href="script.css">
+
+
+
+</head>
+<body id="container">
+
+	<div id="calculator">
+		
+
+
+	<section id="form-section">
+			<header id="header">
+				<h1>Tip Calculator</h1>
+			</header>
+		
+			
+				
+			<form id="form">
+				<label >How much was you bill ? <br>
+				Rs<input type="text" id="bill_amount"><br>
+				</label>
+				<label>How was your Service?<br>
+				<select id="service_quality"><br>
+					<option value="0" disabled="disabled" selected="selected">Choose your option</option>
+					<option value="0.3"> 30-- Outstanding  </option>
+						<option value="0.2"> 20-- Good  </option>
+					<option value="0.15"> 15-- It was ok   </option>
+					<option value="0.1"> 10--Bad  </option>
+					<option value="0.5"> 5--terrible  </option>
+
+				</select>
+				</label>				
+
+				<label><br>
+					how many people are sharing the bill ? <br>
+					
+					<input type="text" id="total_people">people <br>
+
+				</label>
+				<br>
+				<button  type="button" id="button"> Calculate</button>
+
+			</form>
+
+
+			</section>
+
+			<section id="total_tip">
+				
+				<sup>Rs</sup><span id="calculate_Tip"> 0.00 </span><br>
+				<small id="each">each</small>
+			</section>
+
+
+
+<script src="main.js" ></script>
+
+	</div>
+
+
+</body>
+</html>

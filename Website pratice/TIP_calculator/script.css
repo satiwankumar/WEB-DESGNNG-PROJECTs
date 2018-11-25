@@ -1,0 +1,126 @@
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+
+	#container{
+
+		background-image: url('coffee.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		font-family: bold;
+		width: 1513px;
+		height: 1000px;
+		font-size: 20px;
+	}
+
+	#calculator{
+		background-color: white;
+		width: 400px;
+		padding: 50px;
+		box-sizing: border-box;
+		margin: 100px auto;
+		border-radius: 20px;
+
+	}
+	
+	#header {
+
+		border-bottom: 1px solid black;
+		text-align: center;
+		color: #5b0000;
+		margin: 20px ;
+		padding-bottom: 25px;
+
+	}
+	h1{
+
+		font-size: 2em;
+		font-family: "impact";
+	}
+	#form {
+
+		font-size: 20px;
+		line-height: 40px;
+		font-weight: bold;
+		text-align: left;
+		line-height: 50px;
+	}
+#form label{
+
+	font-family: sans-serif;
+	line-height: 2px;
+}
+#form select{
+
+font-size: 20px;
+
+margin: 10 0px 10 0px;
+}
+#form input{
+	width: 50px;
+	padding: 8px;
+
+}
+
+
+
+
+#button{
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0px 20px;	
+	border-bottom: 1px  solid black;
+	background-color: #5b0000;
+	color: white;
+	border-radius: 20px;
+}
+
+#button:hover{
+
+	position: relative;
+	color: black;
+	border : 1px solid black;
+}
+#button :active{
+		
+}
+
+
+#total_tip{
+
+		text-align: center;
+		margin: 40px;
+		font-size: 25px;
+		color: black;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

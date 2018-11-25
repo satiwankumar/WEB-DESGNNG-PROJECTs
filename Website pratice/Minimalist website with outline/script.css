@@ -1,0 +1,109 @@
+* {
+
+	margin: 0px;
+	padding: 0px;
+	font-size: 20px;
+	font-family: "Abel", sans-serif;
+}
+
+
+#container{
+
+	background: rgba(252,252,252,1.0);
+	color: black;
+	width: 1513px;
+	height: 1500px;
+}
+
+#header {
+		
+		width: 1513px;
+		height: 120px;
+}
+#header h1{
+
+	font-size: 5em;
+	padding: 70px;
+
+}
+h1 ,h2{
+
+font-family: 'Gill Sans MT';
+font-size: 2em;
+font-weight: bold;
+padding: 0px;
+margin: 0px;
+text-align: center;
+
+}
+
+h2{
+
+	margin: 30px 30px;
+}
+#section{
+
+width: 1000px;
+margin: 40px auto ;
+height: 900px;
+padding: 40px;
+
+}
+
+
+#section  #column1{
+
+float: left;
+width: 300px;
+padding-right: 50px;
+
+}
+#span1{
+	color: rgba(252,252,252,1.0);
+	font-size: 90px;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width:4px;
+}
+span{
+	color: rgba(252,252,252,1.0);
+	font-size: 40px;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width:2px;
+}
+
+
+#section  #column2{
+
+float: left;
+width: 300px;
+}
+
+#section #column3{
+
+float: right;
+width: 300px;
+}
+#section #column4{
+
+float: left;
+width: 300px;
+padding-right: 50px;
+
+}
+#section #column5{
+
+float: left;
+width: 300px;
+}
+#section #column6{
+
+float: right;
+width: 300px;
+}
+#p1{
+	margin: 30px 30px;
+	text-align: center;
+	font-size: 100px;
+
+}
+

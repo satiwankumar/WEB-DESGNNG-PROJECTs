@@ -1,0 +1,64 @@
+
+#container{
+	width: 750px;
+	margin: 20px auto;
+	height: 500px;
+	background: white;
+}
+#header{
+	width: 750px;
+	 height: 80px;
+	 text-transform: uppercase;
+	 word-spacing: 2px;
+	 text-align: center;
+
+
+}
+#legend{
+	text-transform: capitalize;
+	word-spacing: 2px;
+	
+}
+#form{
+background: white;
+
+
+}
+
+
+#fieldset{
+	padding: 10px;
+	background: #999999;
+
+}
+
+input[type="text"],input[type="email"],input[type="tel"],#form-message{
+	border: 1px solid red;
+	padding: 10px;
+	margin: 20px 20px;
+	display: block;
+	width: 250px;
+
+
+}
+textarea{
+	resize: none;
+
+
+
+}
+label{
+
+		display: block;
+		border: 1px solid black;
+		text-align: center;
+		padding: 10px ;
+		text-align: center;
+		text-transform: capitalize;
+		font-family: sans-serif;
+		width: 250px;
+		line-height: 20px;
+		background: grey;
+		color: red ;
+		font-weight: bold;  
+}
